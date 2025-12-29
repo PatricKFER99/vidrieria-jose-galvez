@@ -1,0 +1,78 @@
+==============================================================================
+PROYECTO WEB: VIDRIERÍA JOSÉ GÁLVEZ
+VERSIÓN: 2.1 (FINAL / PREMIUM)
+FECHA: Diciembre 2025
+DESARROLLADO POR: DATA CRAFT VICTORY
+==============================================================================
+
+1. DESCRIPCIÓN DEL PROYECTO
+------------------------------------------------------------------------------
+Sitio web corporativo de alto rendimiento diseñado para "Vidriería José Gálvez".
+El proyecto se centra en la conversión de clientes mediante una interfaz limpia,
+profesional y optimizada para dispositivos móviles (Mobile First).
+
+OBJETIVOS TÉCNICOS:
+- Velocidad de carga ultra rápida (Sin frameworks pesados).
+- Experiencia de usuario (UX) enfocada en la confianza y seguridad.
+- Integración omnicanal: WhatsApp, TikTok y Geolocalización.
+
+TECNOLOGÍA UTILIZADA:
+- HTML5 Semántico
+- CSS3 (Variables, Flexbox, Grid, Animaciones Soft-UI)
+- JavaScript Vanilla (Optimizado)
+
+==============================================================================
+
+2. ESTRUCTURA DEL SISTEMA
+------------------------------------------------------------------------------
+El proyecto consta de los siguientes módulos:
+
+[PÁGINAS PRINCIPALES]
+|-- index.html       : Portada (Hero Section, Resumen, Equipo).
+|-- servicios.html   : Catálogo técnico (Vidrios, Aluminios, Materiales).
+|-- galeria.html     : Portafolio visual con integración de TikTok.
+|-- nosotros.html    : Identidad corporativa, seguridad y garantía.
+|-- contacto.html    : Cierre de ventas (WhatsApp y Mapa).
+
+[NÚCLEO VISUAL Y LÓGICO]
+|-- style.css        : Sistema de diseño (Paleta de colores, tipografías).
+|-- script.js        : Control de interfaz móvil y micro-interacciones.
+
+[RECURSOS GRÁFICOS (ASSETS)]
+|-- logo.jpg / logo2.jpg
+|-- equipo.jpg / local.jpg / transporte.jpg / taller.jpg
+|-- trabajo1.jpg / trabajo2.jpg / trabajo3.jpg
+|-- cliente-feliz.jpg / accion-seguridad.jpg
+
+==============================================================================
+
+3. GUÍA DE MANTENIMIENTO (PARA EL CLIENTE)
+------------------------------------------------------------------------------
+
+A. ACTUALIZAR NÚMERO DE WHATSAPP / CELULAR:
+   1. Abra los archivos HTML.
+   2. Busque el número: "981223152".
+   3. Reemplácelo por el nuevo. 
+   * Nota: El teléfono fijo fue retirado en la versión 2.1 a petición del cliente.
+
+B. CAMBIAR IMÁGENES DEL PORTAFOLIO:
+   1. Guarde la nueva foto en formato .jpg.
+   2. Nombre el archivo igual que el original (ej: "trabajo1.jpg").
+   3. Reemplace el archivo en la carpeta raíz.
+
+C. MODIFICAR UBICACIÓN (MAPA):
+   1. Genere el nuevo "iframe" desde Google Maps.
+   2. Pegue el código dentro del contenedor de mapa en 'contacto.html'.
+
+==============================================================================
+
+4. CRÉDITOS Y DERECHOS
+------------------------------------------------------------------------------
+Diseño y Desarrollo de Software:
+DATA CRAFT VICTORY
+Programador:Lopez Meza Patrick Fernando 
+Este código es propiedad intelectual de Data Craft Victory, licenciado para
+uso exclusivo de Vidriería José Gálvez.
+
+© 2025 Data Craft Victory. Todos los derechos reservados.
+==============================================================================
