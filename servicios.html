@@ -3,210 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Servicios de vidriería: Instalación de vidrios templados, carpintería de aluminio, mamparas y venta de materiales en Lima.">
     <title>Servicios | Vidriería José Gálvez</title>
-    
     <link rel="icon" href="logo2.jpg" type="image/jpeg">
-    
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="container nav-flex">
-            <a href="index.html" class="brand">
-                <img src="logo.jpg" alt="Vidriería José Gálvez Logo">
-            </a>
-            
+            <a href="index.html" class="brand"><img src="logo.jpg" alt="Logo"></a>
             <ul class="nav-links">
                 <li><a href="index.html" class="nav-link">Inicio</a></li>
-                <li><a href="servicios.html" class="nav-link active">Servicios</a></li> <li><a href="galeria.html" class="nav-link">Galería</a></li>
+                <li><a href="servicios.html" class="nav-link active">Servicios</a></li>
+                <li><a href="galeria.html" class="nav-link">Galería</a></li>
                 <li><a href="nosotros.html" class="nav-link">Empresa</a></li>
-                <li><a href="contacto.html" class="btn-nav">Cotizar Proyecto</a></li>
+                <li><a href="contacto.html" class="btn-nav">Cotizar</a></li>
             </ul>
-            
-            <div class="mobile-toggle" style="display:none;"><i class="fas fa-bars"></i></div>
+            <div class="mobile-toggle"><i class="fas fa-bars"></i></div>
         </div>
     </nav>
 
-    <header class="hero" style="height: 50vh; min-height: 400px; background: linear-gradient(rgba(11, 28, 51, 0.85), rgba(11, 28, 51, 0.8)), url('trabajo2.jpg') center/cover;">
-        <div class="container hero-content">
-            <span class="badge">Catálogo de Soluciones</span>
-            <h1>Nuestros Servicios</h1>
-            <p>Desde la venta de materiales hasta la ejecución técnica de proyectos complejos. Calidad garantizada en cada etapa.</p>
+    <header class="page-header" style="background: linear-gradient(rgba(11,28,51,0.85), rgba(11,28,51,0.8)), url('taller.jpg') center/cover;">
+        <div class="overlay-header">
+            <h1>Servicios y Suministros</h1>
+            <p>Venta de materiales y ejecución de proyectos A1.</p>
         </div>
     </header>
 
-    <section class="section">
-        <div class="container grid-2">
-            <div class="image-wrapper reveal-left">
-                <div class="img-frame">
-                    <img src="trabajo1.jpg" alt="Instalación en Centro Comercial">
-                </div>
-            </div>
-            <div class="text-wrapper reveal-right">
-                <span class="subtitle">Especialidad Corporativa</span>
-                <h2>Proyectos Comerciales y de Altura</h2>
-                <p>Ejecutamos obras en centros comerciales, oficinas y edificios. Entendemos la exigencia normativa, por lo que nuestro personal cuenta con seguros SCTR y equipos de protección personal (EPP) para trabajos de alto riesgo.</p>
-                
-                <ul class="check-list">
-                    <li><i class="fas fa-check-circle"></i> Mamparas de vidrio templado (8mm, 10mm, 12mm).</li>
-                    <li><i class="fas fa-check-circle"></i> Barandas de acero inoxidable y vidrio.</li>
-                    <li><i class="fas fa-check-circle"></i> Fachadas flotantes y muros cortina.</li>
-                </ul>
-                
-                <a href="contacto.html" class="btn-primary">
-                    Consultar Presupuesto
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="section bg-light">
+    <section class="section bg-navy-section">
         <div class="container grid-2">
             <div class="text-wrapper reveal-left">
-                <span class="subtitle">Hogar y Diseño</span>
-                <h2>Cristalería Fina y Residencial</h2>
-                <p>Elevamos la estética de tu hogar con acabados pulidos y materiales de larga duración. Nos enfocamos en los detalles técnicos que aseguran que tus ventanas y puertas funcionen suavemente por años.</p>
+                <span class="subtitle" style="color: var(--brand-red);">Venta Directa</span>
+                <h2 style="color: white;">Suministro de Vidrios y Perfiles</h2>
+                <p style="color: #cbd5e1;">Somos proveedores directos para contratistas y público en general. Contamos con stock permanente y taller de corte.</p>
                 
-                <ul class="check-list">
-                    <li><i class="fas fa-check-circle"></i> Puertas de ducha (Batientes y Corredizas).</li>
-                    <li><i class="fas fa-check-circle"></i> Espejos decorativos con biselado y luz LED.</li>
-                    <li><i class="fas fa-check-circle"></i> Ventanas termoacústicas (Antirruido).</li>
-                </ul>
-
-                <a href="galeria.html" class="link-arrow">
-                    Ver ejemplos en Galería <i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
-            <div class="image-wrapper reveal-right">
-                <div class="img-frame">
-                    <img src="detalle-acabado.jpg" alt="Detalle de acabados finos">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section">
-        <div class="container grid-2">
-            <div class="image-wrapper reveal-left">
-                <div class="img-frame">
-                    <img src="trabajo3.jpg" alt="Estructuras de Aluminio">
-                </div>
-            </div>
-            <div class="text-wrapper reveal-right">
-                <span class="subtitle">Durabilidad y Resistencia</span>
-                <h2>Carpintería de Aluminio</h2>
-                <p>Fabricamos estructuras a medida que resisten el paso del tiempo y la humedad de Lima. Soluciones ideales para exteriores, divisiones de oficina y techos ligeros.</p>
-                
-                <ul class="check-list">
-                    <li><i class="fas fa-check-circle"></i> Ventanas Sistema Nova y Proyectantes.</li>
-                    <li><i class="fas fa-check-circle"></i> Puertas de alto tránsito para negocios.</li>
-                    <li><i class="fas fa-check-circle"></i> Estantería, vitrinas y mostradores.</li>
-                </ul>
-                
-                <a href="https://wa.me/51981223152" class="btn-primary">
-                    <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section class="section bg-light">
-        <div class="container grid-2">
-            <div class="text-wrapper reveal-left">
-                <span class="subtitle">Venta Directa</span>
-                <h2>Suministro de Materiales</h2>
-                <p>Contamos con stock permanente de vidrios y perfiles. Ofrecemos servicio de corte a medida y entrega rápida para contratistas, arquitectos y público en general.</p>
-                
-                <div style="background: var(--white); padding: 25px; border-radius: 8px; box-shadow: var(--shadow-sm); border-left: 4px solid var(--brand-red);">
-                    <h4 style="margin-bottom: 15px;">Stock Disponible:</h4>
-                    <ul class="check-list">
-                        <li><i class="fas fa-layer-group"></i> <strong>Vidrios:</strong> Crudo, Laminado, Templado, Arenado.</li>
-                        <li><i class="fas fa-layer-group"></i> <strong>Colores:</strong> Incoloro, Bronce, Gris, Reflejante.</li>
-                        <li><i class="fas fa-layer-group"></i> <strong>Accesorios:</strong> Siliconas, felpas y sistemas de aluminio.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="image-wrapper reveal-right">
-                <div class="img-frame">
-                    <img src="muestrario.jpg" alt="Muestrario de vidrios y aluminios">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section bg-dark text-center">
-        <div class="container">
-            <h2 style="color: var(--white); margin-bottom: 20px;">¿Listo para iniciar tu proyecto?</h2>
-            <p style="color: #cbd5e1; max-width: 600px; margin: 0 auto 40px;">Recibe asesoría técnica personalizada y una cotización sin compromiso hoy mismo.</p>
-            <a href="contacto.html" class="btn-primary" style="background: var(--white); color: var(--navy-deep);">
-                Contactar Ahora
-            </a>
-        </div>
-    </section>
-
-  <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div>
-                    <img src="logo2.jpg" alt="Icono JG" class="footer-logo-small">
-                    <h4>Vidriería José Gálvez</h4>
-                    <p class="footer-desc">
-                        Excelencia técnica en vidrio y aluminio. Comprometidos con la calidad, la seguridad y la satisfacción total.
-                    </p>
-                    <div class="social-icons">
-                        <a href="https://web.facebook.com/vidrieria.josegalvez/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.tiktok.com/@roberto1922" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
-                        <a href="https://wa.me/51981223152" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <div style="margin-top: 30px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <h4 style="color: white; margin-bottom: 10px;"><i class="fas fa-layer-group"></i> Vidrios</h4>
+                        <ul class="check-list" style="font-size: 0.9rem; color: #cbd5e1;">
+                            <li>Templex / Laminado</li>
+                            <li>Crudo / Pavonado</li>
+                            <li>Espejos Mirex</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="color: white; margin-bottom: 10px;"><i class="fas fa-tools"></i> Aluminio</h4>
+                        <ul class="check-list" style="font-size: 0.9rem; color: #cbd5e1;">
+                            <li>Perfiles Mate/Negro</li>
+                            <li>Color Madera</li>
+                            <li>Accesorios y Felpas</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div>
-                    <h4>Central de Atención</h4>
-                    <ul class="contact-list">
-                        <li>
-                            <i class="fas fa-mobile-alt"></i> 
-                            <div>
-                                <span>Celular / WhatsApp</span>
-                                <a href="tel:981223152">981 223 152</a>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="fas fa-map-marker-alt"></i> 
-                            <div>
-                                <span>Ubicación</span>
-                                <p>Jr. Mantaro 192, V.M.T.</p>
-                            </div>
-                        </li>
-                    </ul>
+                <a href="https://wa.me/51981223152" class="btn-primary" style="margin-top: 30px; background: var(--white); color: var(--navy-deep);">
+                    <i class="fab fa-whatsapp"></i> Consultar Stock
+                </a>
+            </div>
+            <div class="image-wrapper reveal-right">
+                <div class="img-frame">
+                    <img src="muestrario.jpg" alt="Stock de Vidrios">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container grid-2">
+            <div class="image-wrapper reveal-left">
+                <div class="img-frame"><img src="trabajo1.jpg" alt="Comercial"></div>
+            </div>
+            <div class="text-wrapper reveal-right">
+                <span class="subtitle">Línea Corporativa</span>
+                <h2>Proyectos Comerciales</h2>
+                <p>Ejecutamos obras de altura con personal asegurado (SCTR) y equipos de protección.</p>
+                <ul class="check-list">
+                    <li><i class="fas fa-check"></i> Fachadas flotantes y muros cortina.</li>
+                    <li><i class="fas fa-check"></i> Mamparas de alto tránsito (10mm/12mm).</li>
+                    <li><i class="fas fa-check"></i> Barandas de acero inoxidable.</li>
+                </ul>
+                <a href="galeria.html" class="link-arrow">Ver Proyectos <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hogar y Acabados</h2>
+                <div class="divider"></div>
+                <p>Soluciones estéticas y duraderas para viviendas.</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="card" style="display: flex; flex-direction: column;">
+                    <div class="card-img" style="height: 250px;"><img src="detalle-acabado.jpg" alt="Residencial"></div>
+                    <div class="card-body">
+                        <h3>Cristalería Fina</h3>
+                        <p>Acabados de lujo para interiores.</p>
+                        <ul class="check-list" style="margin-top: 15px;">
+                            <li><i class="fas fa-check"></i> Duchas templadas.</li>
+                            <li><i class="fas fa-check"></i> Espejos biselados / LED.</li>
+                            <li><i class="fas fa-check"></i> Ventanas antiruido.</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div>
-                    <h4>Enlaces Rápidos</h4>
-                    <ul class="footer-links">
-                        <li><a href="servicios.html">Nuestros Servicios</a></li>
-                        <li><a href="galeria.html">Galería de Proyectos</a></li>
-                        <li><a href="nosotros.html">Sobre la Empresa</a></li>
-                        <li><a href="contacto.html">Solicitar Cotización</a></li>
-                    </ul>
+                <div class="card" style="display: flex; flex-direction: column;">
+                    <div class="card-img" style="height: 250px;"><img src="trabajo3.jpg" alt="Aluminio"></div>
+                    <div class="card-body">
+                        <h3>Carpintería de Aluminio</h3>
+                        <p>Estructuras ligeras y resistentes.</p>
+                        <ul class="check-list" style="margin-top: 15px;">
+                            <li><i class="fas fa-check"></i> Sistema Nova y Proyectante.</li>
+                            <li><i class="fas fa-check"></i> Techos de policarbonato.</li>
+                            <li><i class="fas fa-check"></i> Divisiones de oficina.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             
-            <div class="copyright">
-                © 2025 Vidriería José Gálvez. Todos los derechos reservados.
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="contacto.html" class="btn-primary">Solicitar Visita Técnica</a>
             </div>
         </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <img src="logo2.jpg" alt="JG" class="footer-logo-small">
+                    <h4>Vidriería José Gálvez</h4>
+                    <div style="margin-bottom: 15px;"><span class="ruc-text">RUC: 10094169823</span></div>
+                    <p class="footer-desc">Calidad, seguridad y garantía total.</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/vidrieria.josegalvez/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@roberto1922" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://wa.me/51981223152" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Contacto</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-mobile-alt"></i> <div><span>Celular</span><a href="tel:981223152">981 223 152</a></div></li>
+                        <li><i class="fas fa-envelope"></i> <div><span>Correo</span><a href="mailto:Vidrieriajosegalvez@gmail.com">Vidrieriajosegalvez@gmail.com</a></div></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <div><span>Ubicación</span><p>Jr. Mantaro 192, V.M.T.</p></div></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Menú</h4>
+                    <ul class="footer-links">
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="nosotros.html">Empresa</a></li>
+                        <li><a href="contacto.html">Cotizar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">© 2025 Vidriería José Gálvez.</div>
+        </div>
     </footer>
-
-    <a href="https://wa.me/51981223152" class="whatsapp-float" target="_blank" title="Chat WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
     <script src="script.js"></script>
 </body>
 </html>

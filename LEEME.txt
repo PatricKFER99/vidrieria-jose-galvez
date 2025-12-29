@@ -43,6 +43,8 @@ El proyecto consta de los siguientes módulos:
 |-- equipo.jpg / local.jpg / transporte.jpg / taller.jpg
 |-- trabajo1.jpg / trabajo2.jpg / trabajo3.jpg
 |-- cliente-feliz.jpg / accion-seguridad.jpg
+|-- Logos de Marcas (furukawa.jpg, miyasato.jpg, limatambo.jpg, hpd.jpg)
+|-- Logos de Pagos (yape-logo.jpg, plin-logo.jpg, bcp-logo.jpg, bbva-logo.jpg)
 
 ==============================================================================
 
@@ -70,9 +72,8 @@ C. MODIFICAR UBICACIÓN (MAPA):
 ------------------------------------------------------------------------------
 Diseño y Desarrollo de Software:
 DATA CRAFT VICTORY
-Programador:Lopez Meza Patrick Fernando 
+Programador: Lopez Meza Patrick Fernando 
 Este código es propiedad intelectual de Data Craft Victory, licenciado para
 uso exclusivo de Vidriería José Gálvez.
 
 © 2025 Data Craft Victory. Todos los derechos reservados.
-==============================================================================
